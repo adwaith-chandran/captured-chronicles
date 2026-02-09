@@ -6,7 +6,7 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
 import Reviews from './components/Reviews'
-import Admin from '../Admin'
+import Admin from './components/Admin'
 import Contact from './components/Contact'
 
 
