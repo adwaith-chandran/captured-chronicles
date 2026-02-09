@@ -15,6 +15,7 @@ function Reviews() {
         <source src={video} type="video/mp4"/>
         </video> 
         </div>
+        {/* <div><Footer/></div> */}
         
     </div>
   )
