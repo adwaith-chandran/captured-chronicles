@@ -1,0 +1,143 @@
+/* Admin.css - Captured Chronicles Cinematic Theme */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&q=80'); /* Dark cinematic background */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-card {
+    /* Glassmorphism Effect matching your carousel captions */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.login-card h2 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.login-card input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.login-card button:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Dashboard Styles */
+.admin-dashboard {
+    min-height: 100vh;
+    background-color: #0a0a0a; /* Deep dark background */
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.admin-header h1 {
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.logout-btn {
+    background: transparent;
+    color: #ff4757;
+    border: 1px solid #ff4757;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #ff4757;
+    color: white;
+}
+
+/* Table Design */
+.table-container {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th {
+    text-align: left;
+    padding: 20px;
+    font-weight: 400;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.styled-table td {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 0.95rem;
+}
+
+.styled-table tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.tag {
+    padding: 5px 12px;
+    border-radius: 2px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}

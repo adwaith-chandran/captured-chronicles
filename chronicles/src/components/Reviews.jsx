@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios';
 import Navbar from './Navbar'
 import video from '../assets/background-video.mp4'
 import Footer from './Footer'
@@ -14,7 +15,7 @@ function Reviews() {
         <source src={video} type="video/mp4"/>
         </video> 
         </div>
-
+        
     </div>
   )
 }
