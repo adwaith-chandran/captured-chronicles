@@ -1,58 +1,47 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './style.css';
 
 function Footer() {
   return (
-    <div className='footer'>
-        {/* Top Section: Navigation & Info */}
+    <footer className='footer'>
       <div className="footer-top">
-        <div className="footer-column-one">
+        <div className="footer-column">
           <h3>NAVIGATE</h3>
-          <a href="/">home</a>
-          <a href="/about">about</a>
-          <a href="/blog">blog</a>
-          <a href="/proofing">client proofing</a>
+          <Link to="/">home</Link>
+          <Link to="/about">about</Link>
+          <Link to="/contact">contact</Link>
+          <Link to="/admin">admin access</Link>
         </div>
 
         <div className="footer-column">
           <h3>FIND US</h3>
-          <p>Adwaith chandran<br />Parimath villa,Soyus lane</p>
-          <p>224567578869</p>
-          <a href="adwaithschandran09@gmail.com">adwaithschandran09@gmail.com</a>
+          <p>Adwaith S. Chandran<br />Kadavanthara, Ernakulam</p>
+          <p>Soyus Lane, Near Devi Temple</p>
+          <a href="mailto:adwaithschandran09@gmail.com">adwaithschandran09@gmail.com</a>
         </div>
 
         <div className="footer-column">
           <h3>Let's Talk</h3>
-          <a href="/contact" className="action-link">Click Here</a>
+          <Link to="/contact" className="action-link">Click Here</Link>
         </div>
 
         <div className="footer-column">
-          <h3>Book Now</h3>
-          <a href="/book" className="action-link">Click Here</a>
+          <h3>Captured Chronicles</h3>
+          <p className="brand-subtext">Visualizing stories through a cinematic lens.</p>
         </div>
       </div>
 
-      {/* Middle Section: Text & Locations */}
       <div className="footer-middle">
-        <p>406 Photo: Timeless Wedding Photography &nbsp;|&nbsp; Member Wedding & Portrait Photographers International</p>
-        <p className="locations">Bozeman • Big Sky • Livingston • National • International</p>
-      </div>
-
-      {/* Bottom Section: Logos */}
-      <div className="footer-logos">
-        {/* Replace src with your actual image paths */}
-        <img src="https://placehold.co/100x60?text=WPPI" alt="WPPI" />
-        <img src="https://placehold.co/150x60?text=PPA" alt="PPA" />
-        <div className="circle-logo">
-          <img src="https://placehold.co/100x100?text=The+Knot" alt="The Knot" />
-        </div>
-        <img src="https://placehold.co/200x60?text=WeddingWire" alt="Wedding Wire" />
+        <p>Lifestyle Portraits • Commercial Food • Event Coverage • Dark Landscape Art</p>
+        <p className="locations">Kadavanthara • Ernakulam • Kerala • International</p>
       </div>
       
       <div className="footer-copyright">
-        <p>crafted by photobiz</p>
+        <p>© 2026 Captured Chronicles | Developed by Adwaith S. Chandran</p>
       </div>
-    </div>
-  )
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -234,22 +234,92 @@ li{
   /* border: 5px solid chocolate;    */
 }
 /* ===========================FOOTER=========================================================================== */
+.footer {
+    background-color: #050505; /* Deeper black for the base */
+    color: #ffffff;
+    padding: 60px 20px 20px 20px;
+    font-family: 'Inter', sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    
+}
 
-.footer{
-  color: white;
-  text-align: center;
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
 }
-.footer-top{
-  display: flex;
-  justify-content: center;
+
+.footer-column h3 {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
-.footer-logos{
-  display: flex;
-  justify-content: center;
+
+.footer-column a, .footer-column p {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    line-height: 1.6;
 }
-.footer-column-one{
-  display: flex;
-  flex-direction: column;
+
+.footer-column a:hover {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.action-link {
+    display: inline-block !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 0.75rem !important;
+}
+
+.action-link:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+.footer-middle {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 30px 0;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.locations {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.brand-subtext {
+    font-style: italic;
+    font-weight: 200;
+    color: #555 !important;
 }
 /* =============================home========================================= */
 .home-main-container{
@@ -602,13 +672,21 @@ li{
 }
 /* ====================================contacts======================================== */
 .contact-page {
-    background-color: #0a0a0a;
+    background-image: url(../assets/images/img12.jpg);
     min-height: 100vh;
+    position: relative;
+    width: 100%;
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;  
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;   
 }
 
 .contact-content {
@@ -620,7 +698,7 @@ li{
 }
 
 .contact-info h2 {
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 200;
     letter-spacing: 6px;
     color: #fff;
@@ -628,8 +706,9 @@ li{
 }
 
 .contact-info p {
-    color: #888;
+    color: white;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .contact-form {
@@ -650,6 +729,11 @@ li{
     color: #fff;
     padding: 10px 0;
     outline: none;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 15px;       
 }
 
 .contact-btn {
@@ -662,6 +746,10 @@ li{
     letter-spacing: 2px;
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;       
 }
 
 .contact-btn:hover {

@@ -5,8 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&q=80'); /* Dark cinematic background */
+    background-image: url(../assets/images/img2.jpg);
     background-size: cover;
     background-position: center;
 }
