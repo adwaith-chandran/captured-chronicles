@@ -11,7 +11,7 @@ function Footer() {
           <Link to="/">home</Link>
           <Link to="/about">about</Link>
           <Link to="/contact">contact</Link>
-          <Link to="/admin">admin access</Link>
+          {/* <Link to="/review">admin access</Link> */}
         </div>
 
         <div className="footer-column">

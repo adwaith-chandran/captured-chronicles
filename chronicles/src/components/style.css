@@ -757,3 +757,95 @@ li{
     color: #fff;
     border: 1px solid #fff;
 }
+/* ====================================REVIEW================================ */
+.review-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.review-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark tint to pop the text */
+    min-height: 100vh;
+    padding: 100px 20px;
+}
+
+.review-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.glass-morphism {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+}
+
+.review-card {
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.stars { color: #f1c40f; margin-bottom: 10px; }
+.comment { font-style: italic; color: #ddd; }
+.client-name { text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; margin-top: 10px; }
+
+.form-container { margin-top: 60px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.form-container h3 { font-weight: 300; margin-bottom: 20px; text-align: center; }
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-container button:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
