@@ -13,9 +13,6 @@ function Reviews() {
         </div>
         <video autoPlay loop muted playsInline>
         <source src={video} type="video/mp4"/>
-        <h1>rsrdtffjgcugcugcgcucg</h1>
-        <h2>hjgkhggjbhkjjkjjhlj</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim dolorem saepe recusandae suscipit et doloremque nam iusto in totam. Quam reiciendis numquam nostrum ipsam aliquid possimus dolore impedit eligendi?</p>
         </video> 
         </div>
     </div>
