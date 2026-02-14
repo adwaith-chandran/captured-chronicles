@@ -62,7 +62,6 @@ const Review = () => {
             <div className="review-overlay">
                 <div className="review-content">
                     <h1 className="page-title">Client Chronicles</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus veritatis expedita deleniti molestias rerum laudantium aspernatur obcaecati eos reiciendis necessitatibus. Exercitationem quia molestias neque eligendi necessitatibus ipsum sequi similique? Dignissimos.</p>
                     
                     <div className="review-list">
                         {reviews.map((r) => (
