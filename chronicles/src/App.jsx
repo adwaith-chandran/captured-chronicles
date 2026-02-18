@@ -25,10 +25,6 @@ function App() {
         
     </Routes>
     <Footer/>
-    <div className='one'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellendus autem facilis, consequatur illo blanditiis, laudantium consectetur magnam quibusdam nisi aperiam, sunt quae ducimus. Deleniti, reiciendis! A quaerat cumque accusamus.</div>
-    <div className='two'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel, quo doloremque id dignissimos, necessitatibus nisi maiores hic nobis explicabo laboriosam sint officiis! Dolore totam vel aspernatur sint excepturi harum?</div>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis provident animi ea neque error tempore similique quaerat, vitae dolorum excepturi velit cumque magni eveniet enim nulla debitis quibusdam soluta ullam?</p>
-    
     </div>
   )
 }
