@@ -58,6 +58,8 @@ const Review = () => {
             <video autoPlay loop muted playsInline className="background-video">
                 <source src="chronicles\src\assets\background-video.mp4" type="video/mp4" />
             </video>
+            <div className='review-one'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore veniam vel voluptatem dolores impedit! Quae aut suscipit, praesentium recusandae, harum nemo consectetur eveniet nam magnam quaerat mollitia rem sapiente!</div>
+            <div className='review-two'>lorem</div>
 
             <div className="review-overlay">
                 <div className="review-content">
