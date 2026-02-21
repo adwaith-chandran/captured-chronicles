@@ -60,6 +60,9 @@ const Review = () => {
             </video>
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit doloribus minima magnam cum quis nostrum omnis consequatur fugit enim optio est ducimus molestias recusandae aperiam ipsam, officiis modi, eaque autem.</div>
             <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia provident rerum dolore suscipit nihil asperiores dolorem, facere cumque debitis consectetur error, iusto, quae ad itaque eaque enim tempore aut tenetur?</p></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eos suscipit corrupti aut, ipsam atque est eius qui, quis provident eveniet minima quod numquam voluptate tempora veritatis. Nulla, quae ipsam.</p></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eos suscipit corrupti aut, ipsam atque est eius qui, quis provident eveniet minima quod numquam voluptate tempora veritatis. Nulla, quae ipsam.</p></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eos suscipit corrupti aut, ipsam atque est eius qui, quis provident eveniet minima quod numquam voluptate tempora veritatis. Nulla, quae ipsam.</p></div>
 
             <div className="review-overlay">
                 <div className="review-content">
