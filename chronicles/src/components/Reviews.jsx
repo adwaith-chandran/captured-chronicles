@@ -82,6 +82,17 @@ const Review = () => {
                                 onChange={(e) => setFormData({...formData, comment: e.target.value})} required />
                             <button type="submit">Submit Review</button>
                         </form>
+
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+                                <div className="container"></div>
+
+
                     </div>
                 </div>
             </div>
