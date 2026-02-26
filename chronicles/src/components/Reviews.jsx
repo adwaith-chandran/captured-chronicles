@@ -83,15 +83,6 @@ const Review = () => {
                             <button type="submit">Submit Review</button>
                         </form>
 
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-                                <div className="container"></div>
-
 
                     </div>
                 </div>
