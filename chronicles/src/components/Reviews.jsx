@@ -59,7 +59,8 @@ const Review = () => {
                 <source src="chronicles\src\assets\background-video.mp4" type="video/mp4" />
             </video>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea possimus neque sit ullam, omnis repudiandae deserunt explicabo recusandae expedita culpa error nesciunt at vel exercitationem eos, modi consequuntur veritatis!</div>
-
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab dolore blanditiis fugiat doloremque debitis tempore delectus ipsum, placeat voluptatem. Reiciendis alias hic recusandae consequuntur doloremque, quos sit voluptatibus quod? Quidem.</div>
+            <div><li>onChange</li></div>
             <div className="review-overlay">
                 <div className="review-content">
                     <h1 className="page-title">Client Chronicles</h1>
