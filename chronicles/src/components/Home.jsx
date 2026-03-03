@@ -60,8 +60,6 @@ function Home() {
 
               Based in Kerala and traveling wherever stories take me, it is a massive privilege to be invited into your most sacred spaces and trusted with your most vulnerable moments. I'm here to ensure the heartbeat of your story is never forgotten. 
             </p>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis dolorem possimus minima sapiente, mollitia error doloribus expedita unde, iste voluptas sunt nam sed numquam quasi perspiciatis? Labore, velit perspiciatis?</div>
-            <li>one</li>
             <div><img src={img9} alt="" /></div>
           </div>    
         </div>        
