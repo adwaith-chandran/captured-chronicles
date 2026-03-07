@@ -37,6 +37,8 @@ const Contact = () => {
                         <p>Based in Kadavanthara, Ernakulam</p>
                         <p>Specializing in Lifestyle Portraits & Dark Landscape Art</p>
                     </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut blanditiis mollitia optio omnis repudiandae. Omnis molestias non incidunt nam laudantium eius aperiam tempora, nulla enim earum aut similique perferendis tempore?</div>
+                    <li>one</li>
 
                     <form className="contact-form" onSubmit={handleSubmit}>
                         <input type="text" name="name" placeholder="Full Name" value={formData.name} onChange={handleChange} required />
