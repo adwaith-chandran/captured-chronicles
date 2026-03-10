@@ -58,6 +58,8 @@ function About() {
 
                 <h4>The World Chronicles (Travel & Nature):</h4> Freezing the majesty of landscapes and the vibrancy of street life. Bringing the textures of the world into focus.
                 </p>
+                <div>one</div>
+                <li>two</li>
         </div>
         </div>
         <div className='about-bg3'>
