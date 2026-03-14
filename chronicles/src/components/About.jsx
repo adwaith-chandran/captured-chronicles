@@ -22,6 +22,13 @@ function About() {
             </p>
             <button>Book A Session</button>
         </div>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda minima laborum quia iure iusto nulla corrupti, officia velit esse. Facere aspernatur quibusdam omnis nam possimus, doloribus fugiat excepturi minima voluptatibus.</div>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+
     </div>
         <div className='about-bg1'>
         <div className='about-second-container'>
