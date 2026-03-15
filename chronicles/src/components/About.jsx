@@ -22,6 +22,12 @@ function About() {
             </p>
             <button>Book A Session</button>
         </div>
+        <div className="aflah"></div>
+        <div className="aflah"></div>
+        <div className="aflah"></div>
+        <div className="aflah"></div>
+        <div className="aflah"></div>
+        <div className="aflah"></div>
     </div>
         <div className='about-bg1'>
         <div className='about-second-container'>
