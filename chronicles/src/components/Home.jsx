@@ -2,15 +2,12 @@ import React from 'react'
 import './style.css'
 import video from '../assets/background-video.mp4'
 import Navbar from './Navbar'
-import Footer from './Footer'
 import img1 from '../assets/images/img9.jpg'
 import img2 from '../assets/images/img10.jpg'
 import img3 from '../assets/images/img11.jpg'
 import img4 from '../assets/images/img12.jpg'
 import img5 from '../assets/images/img13.jpg'
 import img6 from '../assets/images/img14.jpg'
-import img7 from '../assets/images/img15.jpg'
-import img8 from '../assets/images/img16.jpg'
 import img9 from '../assets/images/img18.jpg'
 
 function Home() {
@@ -63,9 +60,6 @@ function Home() {
             <div><img src={img9} alt="" /></div>
           </div>    
         </div>        
-            {/* <div>
-              <Footer/>
-            </div> */}
     </div>
   )
 }

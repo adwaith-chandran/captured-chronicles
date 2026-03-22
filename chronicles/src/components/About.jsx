@@ -84,7 +84,6 @@ function About() {
                     [Contact Adwaith] | [Explore the Full Portfolio]
                 </p>
                 <button>BOOK NOW</button>
-        {/* <div><Footer/></div>         */}
         </div>
         </div>
 
