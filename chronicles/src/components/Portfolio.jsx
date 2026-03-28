@@ -87,7 +87,12 @@ function Portfolio() {
 
                   <h3>Post-Processing:</h3> Every image is individually hand-edited to ensure a timeless, high-end finish.
               </p>
-              
+              <div className="adwaith"></div>
+              <div className="adwaith"></div>
+              <div className="adwaith"></div>
+              <div className="adwaith"></div>
+              <div className="adwaith"></div>
+              <div className="adwaith"></div>
               <button>Book a Session</button>
             </div>
                    
