@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import './style.css'
 import video from '../assets/background-video.mp4'
 import Navbar from './Navbar'
@@ -21,6 +22,12 @@ import img16 from '../assets/images/img37.jpg'
 import img17 from '../assets/images/img38.jpg'
 import img18 from '../assets/images/img39.jpg'
 function Portfolio() {
+  const navigate = useNavigate();
+
+  const handleBookSession = () =>{
+    navigate('/contact')
+  };
+
   return (
     <div className='portfolio container'>
         <div className='video-background2'>
@@ -88,7 +95,9 @@ function Portfolio() {
                   <h3>Post-Processing:</h3> Every image is individually hand-edited to ensure a timeless, high-end finish.
               </p>
               
-              <button>Book a Session</button>
+              <button onClick={handleBookSession} className="cta-button">
+                      Book a Session
+              </button>
             </div>
                    
     </div>

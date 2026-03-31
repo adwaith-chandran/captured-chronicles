@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './style.css'
 import video from '../assets/background-video.mp4'
 import Navbar from './Navbar'
@@ -11,6 +12,13 @@ import img6 from '../assets/images/img14.jpg'
 import img9 from '../assets/images/img18.jpg'
 
 function Home() {
+
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   return (
     <div>
         <div className="video-background">
@@ -25,10 +33,16 @@ function Home() {
                 <p>
                   "Life is a collection of fleeting moments, and I’m here to make sure they stick. From the quiet, unscripted glances to the high-energy milestones that define your journey, I blend technical precision with an artist’s eye for emotion. Whether we’re capturing the intimacy of a portrait, the vibrancy of a global destination, or the raw energy of the streets, my goal is to create more than just images—I want to craft a visual legacy that feels as real as the moment it was taken. Welcome to a space where your story is the masterpiece."
                 </p>
-                <div className='home-main-container-button-flex'>
-                <button>view portfolio</button>
-                <button>book a session</button>
-                </div>
+            <div className='home-main-container-button-flex'>
+
+            <button onClick={() => handleNavigation('/portfolio')}>
+              view portfolio
+            </button>
+            
+            <button onClick={() => handleNavigation('/contact')}>
+              book a session
+            </button>
+          </div>
             </div>
         </div>
         <div className='home-second-container'>

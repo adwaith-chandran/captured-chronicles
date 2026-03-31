@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from './Navbar';
 import axios from 'axios';
 import './style.css'
 
@@ -30,6 +31,7 @@ const Contact = () => {
 
     return (
         <div className="contact-page">
+            <div className='contact-nav'><Navbar/></div>
             <div className="contact-overlay">
                 <div className="contact-content">
                     <div className="contact-info">

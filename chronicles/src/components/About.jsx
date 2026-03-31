@@ -1,9 +1,15 @@
 import React from 'react'
+import { useNavigate} from 'react-router-dom'
 import Navbar from './Navbar'
 import video from '../assets/background-video.mp4'
 // import img from '../assets/img1.jpg'
 import Footer from './Footer'
 function About() {
+    const navigate = useNavigate();
+
+    const goToBooking = () =>{
+        navigate('/contact')
+    }
   return (
 <div>
     <div className="video-background3">
@@ -16,11 +22,10 @@ function About() {
         <div className='about-main-container'>
             <h1>ABOUT US</h1>
             <p>Captured Chronicles is driven by passion—a passion for artistic expression, telling stories, and preserving life's precious memories. <br />
-
             <br />
                 Memories can fade, but photographs let moments live on. At Captured Chronicles, we create an experience making <br /> you feel relaxed and taken care of throughout the process. We will be there from our initial meeting <br /> and planning stages to selecting images for your wall and album. I want you to relive and feel what <br /> you felt years from now every time you look at your album or glance at your stunning wall art from <br /> that special day.
             </p>
-            <button>Book A Session</button>
+            <button onClick={goToBooking}>Book A Session</button>
         </div>
     
     </div>
@@ -83,7 +88,7 @@ function About() {
 
                     [Contact Adwaith] | [Explore the Full Portfolio]
                 </p>
-                <button>BOOK NOW</button>
+                <button onClick={goToBooking}>BOOK NOW</button>
         </div>
         </div>
 

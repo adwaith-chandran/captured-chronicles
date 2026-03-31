@@ -687,6 +687,12 @@ li{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;   
+    display: flex;
+    flex-direction: column;
+}
+.contact-nav{
+  margin-top: -30px;
+  margin-left: -200px;
 }
 
 .contact-content {
@@ -695,18 +701,19 @@ li{
     gap: 60px;
     max-width: 1000px;
     width: 100%;
+    margin-top: 70px;
 }
 
 .contact-info h2 {
     font-size: 50px;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 6px;
-    color: #fff;
+    color:rgb(137, 179, 60);
     margin-bottom: 20px;
 }
 
 .contact-info p {
-    color: white;
+    color: rgb(137, 179, 60);
     letter-spacing: 1px;
     font-size: 20px;
 }
@@ -758,7 +765,7 @@ li{
     border: 1px solid #fff;
 }
 /* ====================================REVIEW================================ */
-.review-page {
+/* .review-page {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -777,7 +784,7 @@ li{
 
 .review-overlay {
     background: rgba(0, 0, 0, 0.6); /* Dark tint to pop the text */
-    min-height: 100vh;
+    /* min-height: 100vh;
     padding: 100px 20px;
 }
 
@@ -848,4 +855,190 @@ li{
     background: transparent;
     color: white;
     border: 1px solid white;
+} */ 
+
+/* =================================================== */
+
+/* .reviews-container{
+  background-image: url(../assets/images/img40.jpg);
+  margin: 0%;
+  height: 100vh;
+  background-size: cover;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: antiquewhite;   
+}
+.reviews-container{
+  text-align: center;
+}
+.reviews-container h2{
+  font-size: 60px;
+}
+.reviews-grid{
+  text-align: center;
+  display: flex;
+}
+.review-card{
+  
+} */
+
+/* Variables for consistency */
+:root {
+  --accent-gold: #c5a059;
+  --dark-charcoal: #1a1a1a;
+  --soft-gray: #fcfcfc;
+  /* --border-light:rgb(137, 179, 60); */
+  --text-dim: #666666;
+}
+
+.reviews-container {
+  max-width: width 100%;;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:antiquewhite;
+  background-image: url(../assets/images/img40.jpg);
+  background-size: cover;
+
+}
+
+/* Header Styling */
+.reviews-container h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 120px;
+  color:rgb(137, 179, 60) ;
+}
+
+/* Reviews Grid */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 100px;
+}
+
+.review-card {
+  background:transparent;
+  background: linear-gradient(rgba(0,0,0,0.5));
+  padding: 40px;
+  border: 1px solid rgb(137, 179, 60);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.review-card:hover {
+  border-color: aliceblue;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.review-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:rgb(137, 179, 60) ;
+}
+
+.stars {
+  color: var(--accent-gold);
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.review-card p {
+  line-height: 1.7;
+  color:antiquewhite;
+  font-size: 0.95rem;
+}
+
+/* Horizontal Line */
+hr {
+  border: 0;
+  margin: 60px 0;
+}
+
+/* Form Section */
+.add-review {
+  max-width: 600px;
+  margin: 0 auto 100px;  
+}
+
+.add-review h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 55px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(137, 179, 60);
+}
+
+.add-review form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.add-review input, 
+.add-review select, 
+.add-review textarea {
+  padding: 15px;
+  border: 1px solid;
+  background: transparent;
+  background: linear-gradient(rgba(0,0,0,0.5));
+  font-size: 1rem;
+  font-family: inherit;
+  outline-color: rgb(137, 179, 60);
+  transition: border-color 0.3s ease;
+  color: rgb(137, 179, 60);
+}
+
+.add-review input:focus, 
+.add-review textarea:focus {
+  border-color:rgb(137, 179, 60);
+}
+
+.add-review textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.add-review button {
+  background:rgb(74, 104, 18);
+  color: antiquewhite;
+  padding: 15px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+  font-family: inherit;
+}
+
+.add-review button:hover {
+  background:rgb(137, 179, 60);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .reviews-container h2 {
+    font-size: 1.8rem;
+  }
+  .add-review {
+    padding: 0 10px;
+  }
 }
