@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import './style.css'
 import video from '../assets/background-video.mp4'
 import Navbar from './Navbar'
@@ -53,9 +54,18 @@ function Home() {
           <div><img src={img5} alt="" /></div>
           </div>
           <div className='home-second-container-buttons'>
-            <button>Love Chronicles </button>
-            <button>World Chronicles</button>
-            <button>Fashion chronicles</button>
+          
+              <HashLink smooth to="/portfolio#love">
+                <button>Love Chronicles</button>
+              </HashLink>
+
+              <HashLink smooth to="/portfolio#style">
+                <button>Style Chronicles</button>
+              </HashLink>
+
+              <HashLink smooth to="/portfolio#world">
+                <button>World Chronicles</button>
+              </HashLink>
           </div>
           <div className='home-second-container-flex2'>
           <div><img src={img2} alt="" /></div>

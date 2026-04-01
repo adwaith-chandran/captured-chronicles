@@ -88,17 +88,18 @@ li{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  padding-top: 90px;
+  padding-top: 50px;
   text-align: center;
 }
 .about-main-container h1{
   text-align: center;
-  font-size: 80px;
+  font-size: 75px;
+  font-weight: 400;
 }
 .about-main-container p{
   text-align: center;
   font-size: 21px;
-  padding-top: 30px;
+  padding-top: 25px;
   padding-inline-start: 120px;
   padding-inline-end: 120px;
   color: white;
@@ -134,11 +135,13 @@ li{
   font-size: 60px;
   padding-top: 60px;
   color: rgb(137, 179, 60);
+  font-weight: 300;
 }
 .about-second-container h3{
   font-size: 40px;
   padding-top: 30px;
   color: rgb(137, 179, 60);
+  font-weight: 300;  
 }
 .about-third-container{
   text-align:center;
@@ -163,11 +166,13 @@ li{
 .about-third-container h3{
   font-size: 60px;
   color: rgb(137, 179, 60);
+  font-weight: 300;
 }
 .about-third-container h4{
   font-size: 30px;
   color:rgb(137, 179, 60);
   padding-top: 30px;
+  font-weight: 300;  
 }
 .about-fourth-container{
   text-align: center;
@@ -186,11 +191,14 @@ li{
   font-size: 50px;
   padding-top: 40px;
   color:rgb(95, 129, 32);
+  font-weight: 500;  
 }
 .about-fourth-container h3{
   font-size: 40px;
   padding-top: 30px;
   color: rgb(95, 129, 32);
+  font-weight: 500;
+  
 }
 .about-fourth-container button{
  background-color: transparent;
@@ -337,6 +345,7 @@ li{
 .home-main-container h1{
   color:rgb(137, 179, 60) ;
   font-size: 68px;
+  font-weight: 500;
 }
 .home-main-container p{
   color:white;
@@ -378,7 +387,7 @@ li{
   font-size: 80px;
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 500;
   font-style: normal;
   text-align: center;
   padding-block-start: 45px;
@@ -432,14 +441,15 @@ li{
   filter:brightness(80%);  
 }
 .home-third-container h1{
-  font-size: 100px;
+  font-size: 95px;
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 500;
   font-style: normal;
   text-align: center;
   padding-block-start: 45px;
-  color:rgb(137, 179, 60);   
+  color:rgb(137, 179, 60);
+
 }
 .home-third-container-flex{
   display: flex;
@@ -490,7 +500,8 @@ li{
   color:rgb(137, 179, 60);
 }
 .portfolio-main-container h1{
-  font-size: 75px;
+  font-size: 70px;
+  font-weight: 500;
 }
 .portfolio-main-container p{
   font-size: 22px;  
@@ -510,26 +521,29 @@ li{
  padding-top: 20px;
  color:rgb(137, 179, 60) ;
  font-size: 40px;
+ font-weight: 300;
 }
 .portfolio-second-container-flex1{
   display: flex;
   justify-content: center;
   gap:140px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .portfolio-second-container-flex2{
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .portfolio-second-container-flex1 img{
   width: 300px;
-  height: 450px;
+  height: 435px;
+  border-radius: 30px;
 }
 .portfolio-second-container-flex2 img{
   width: 450px;
-  height: 300px;
+  height: 285px;
+  border-radius: 30px;
 }
 .portfolio-third-container{
   background-image: url('../assets/images/img20.jpg');
@@ -544,26 +558,31 @@ li{
  padding-top: 20px;
  color:rgb(137, 179, 60) ;
  font-size: 40px;
+ font-weight: 300;
 }
 .portfolio-third-container-flex1{
   display: flex;
   justify-content: center;
   gap:140px;
-  margin-top: 20px;
+  margin-top: 15px;
+
 }
 .portfolio-third-container-flex2{
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 20px;
+  margin-top: 15px;
+
 }
 .portfolio-third-container-flex1 img{
   width: 300px;
-  height: 450px;
+  height: 435px;
+  border-radius: 30px;  
 }
 .portfolio-third-container-flex2 img{
   width: 450px;
-  height: 300px;
+  height: 285px;
+  border-radius: 30px;  
 }
 .portfolio-fourth-container{
   background-image: url('../assets/images/img20.jpg');
@@ -578,26 +597,29 @@ li{
  padding-top: 20px;
  color:rgb(137, 179, 60) ;
  font-size: 40px;
+ font-weight: 300;
 }
 .portfolio-fourth-container-flex1{
   display: flex;
   justify-content: center;
   gap:140px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .portfolio-fourth-container-flex2{
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .portfolio-fourth-container-flex1 img{
   width: 300px;
-  height: 450px;
+  height: 435px;
+  border-radius: 30px;
 }
 .portfolio-fourth-container-flex2 img{
   width: 450px;
-  height: 300px;
+  height: 285px;
+  border-radius: 30px;  
 }
 .portfolio-fifth-container{
   background-image: url('../assets/images/img5.jpg');
@@ -616,18 +638,21 @@ li{
 .portfolio-fifth-container h1{
   padding-block-start: 80px;
   font-size: 50px;
-  color:rgb(137, 179, 60) ;
+  color:rgb(101, 155, 0) ;
+  font-weight: 400;
   
 }
 .portfolio-fifth-container h2{
   font-size: 40px;
-  color:rgb(137, 179, 60) ;
+  color:rgb(101, 155, 0);
   padding-top: 20px;
+  font-weight: 400;
 }
 .portfolio-fifth-container h3{
   font-size: 30px;
-  color:rgb(137, 179, 60) ;
+  color:rgb(101, 155, 0) ;
   padding-top: 20px;
+  font-weight: 400;  
 }
 .portfolio-fifth-container p{
   padding-inline-start: 150px;
@@ -706,7 +731,7 @@ li{
 
 .contact-info h2 {
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 6px;
     color:rgb(137, 179, 60);
     margin-bottom: 20px;
@@ -715,7 +740,7 @@ li{
 .contact-info p {
     color: rgb(137, 179, 60);
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .contact-form {
@@ -727,13 +752,15 @@ li{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
 }
 
 .contact-form input, .contact-form select, .contact-form textarea {
-    background: transparent;
-    border: none;
+    background-color: rgb(144, 172, 91);
+    border:none;
+    border-radius: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
+    color:antiquewhite;
     padding: 10px 0;
     outline: none;
     font-family: "Cinzel", serif;
@@ -741,10 +768,11 @@ li{
     font-weight: weight;
     font-style: normal;
     font-size: 15px;       
+    text-align: center;
 }
 
 .contact-btn {
-    background: #fff;
+    background:rgb(137, 179, 60);
     color: #000;
     padding: 15px;
     border: none;
@@ -765,125 +793,6 @@ li{
     border: 1px solid #fff;
 }
 /* ====================================REVIEW================================ */
-/* .review-page {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-}
-
-.background-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    object-fit: cover;
-}
-
-.review-overlay {
-    background: rgba(0, 0, 0, 0.6); /* Dark tint to pop the text */
-    /* min-height: 100vh;
-    padding: 100px 20px;
-}
-
-.review-content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.page-title {
-    font-weight: 200;
-    letter-spacing: 5px;
-    text-align: center;
-    color: white;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
-.glass-morphism {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-}
-
-.review-card {
-    margin-bottom: 20px;
-    transition: 0.3s ease;
-}
-
-.review-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.stars { color: #f1c40f; margin-bottom: 10px; }
-.comment { font-style: italic; color: #ddd; }
-.client-name { text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; margin-top: 10px; }
-
-.form-container { margin-top: 60px; max-width: 600px; margin-left: auto; margin-right: auto; }
-.form-container h3 { font-weight: 300; margin-bottom: 20px; text-align: center; }
-
-.form-container input, .form-container textarea {
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
-    padding: 10px;
-    margin-bottom: 20px;
-    outline: none;
-}
-
-.form-container button {
-    width: 100%;
-    padding: 15px;
-    background: white;
-    color: black;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.form-container button:hover {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-} */ 
-
-/* =================================================== */
-
-/* .reviews-container{
-  background-image: url(../assets/images/img40.jpg);
-  margin: 0%;
-  height: 100vh;
-  background-size: cover;
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: antiquewhite;   
-}
-.reviews-container{
-  text-align: center;
-}
-.reviews-container h2{
-  font-size: 60px;
-}
-.reviews-grid{
-  text-align: center;
-  display: flex;
-}
-.review-card{
-  
-} */
-
 /* Variables for consistency */
 :root {
   --accent-gold: #c5a059;
@@ -891,6 +800,11 @@ li{
   --soft-gray: #fcfcfc;
   /* --border-light:rgb(137, 179, 60); */
   --text-dim: #666666;
+}
+
+.reviews-page-wrapper{
+  background-image: url(../assets/images/img40.jpg);
+  background-size: cover;
 }
 
 .reviews-container {
@@ -902,7 +816,6 @@ li{
   font-weight: weight;
   font-style: normal;
   color:antiquewhite;
-  background-image: url(../assets/images/img40.jpg);
   background-size: cover;
 
 }
@@ -1003,6 +916,7 @@ hr {
   outline-color: rgb(137, 179, 60);
   transition: border-color 0.3s ease;
   color: rgb(137, 179, 60);
+  border-radius: 20px;
 }
 
 .add-review input:focus, 
@@ -1027,6 +941,7 @@ hr {
   transition: background 0.3s ease;
   margin-top: 10px;
   font-family: inherit;
+  border-radius: 20px;
 }
 
 .add-review button:hover {

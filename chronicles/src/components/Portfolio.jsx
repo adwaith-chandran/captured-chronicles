@@ -29,7 +29,7 @@ function Portfolio() {
   };
 
   return (
-    <div className='portfolio container'>
+    <div className='portfolio-container'>
         <div className='video-background2'>
             <div>
                 <Navbar/>
@@ -42,7 +42,7 @@ function Portfolio() {
               <p>Welcome to the gallery of Captured Chronicles. To me, photography is about more than just a perfectly composed frame; it’s about the feeling that lives within it. Whether I am blending into the background to capture a candid, fleeting smile or meticulously directing a stylized scene to perfection, my goal remains the same: to create honest, timeless visuals that tell your story exactly as it felt.</p>
             </div>
          </div>   
-            <div className='portfolio-second-container'>
+            <div id='love' className='portfolio-second-container'>
               <h1>LOVE CHRONICLES</h1>
               <div className='portfolio-second-container-flex1'>
                 <div><img src={img1} alt="" /></div>
@@ -55,7 +55,7 @@ function Portfolio() {
                 <div><img src={img6} alt="" /></div>  
               </div> 
             </div>
-            <div className='portfolio-third-container'>
+            <div id='style' className='portfolio-third-container'>
               <h1>STYLE CHRONICLES</h1>
               <div className='portfolio-third-container-flex1'>
                 <div><img src={img7} alt="" /></div>
@@ -68,7 +68,7 @@ function Portfolio() {
                 <div><img src={img12} alt="" /></div>  
               </div> 
             </div>   
-            <div className='portfolio-fourth-container'>
+            <div id='world' className='portfolio-fourth-container'>
               <h1>WORLD CHRONICLES</h1>
               <div className='portfolio-fourth-container-flex1'>
                 <div><img src={img13} alt="" /></div>
