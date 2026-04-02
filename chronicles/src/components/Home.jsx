@@ -59,12 +59,12 @@ function Home() {
                 <button>Love Chronicles</button>
               </HashLink>
 
-              <HashLink smooth to="/portfolio#style">
-                <button>Style Chronicles</button>
-              </HashLink>
-
               <HashLink smooth to="/portfolio#world">
                 <button>World Chronicles</button>
+              </HashLink>
+
+              <HashLink smooth to="/portfolio#style">
+                <button>Style Chronicles</button>
               </HashLink>
           </div>
           <div className='home-second-container-flex2'>

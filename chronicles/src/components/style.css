@@ -243,7 +243,7 @@ li{
 }
 /* ===========================FOOTER=========================================================================== */
 .footer {
-    background-color: #050505; /* Deeper black for the base */
+    background-color: #050505; 
     color: #ffffff;
     padding: 60px 20px 20px 20px;
     font-family: 'Inter', sans-serif;
