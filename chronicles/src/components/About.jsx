@@ -29,11 +29,6 @@ function About() {
         </div>
     
     </div>
-    <div className="adwaith"></div>
-    <div className="adwaith"></div>
-    <div className="adwaith"></div>
-    <div className="adwaith"></div>
-    <div className="adwaith"></div>
         <div className='about-bg1'>
         <div className='about-second-container'>
                 
